@@ -6,7 +6,12 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['var(--font-outfit)', 'sans-serif'],
+        mono: ['var(--font-jetbrains)', 'monospace'],
+      },
+    },
   },
   plugins: [],
 };
